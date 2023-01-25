@@ -1,0 +1,33 @@
+@media screen and (max-width: 768px) {
+    video {
+        display: none;
+    }
+
+    #wrapper {
+        flex-direction: column;
+        background-color: rgb(147, 145, 145);
+    }
+
+    #menu, #content {
+        width: 100%;
+    }
+
+    #menu li {
+        display: inline-block;
+    }
+
+    #menu ul li:hover {
+        padding-left: 4px;
+    }
+
+    #products .sectionBody div {
+        flex-basis: 40%;
+    }
+
+}
+
+@media screen and (max-width: 576px) {
+    #products .sectionBody div {
+        flex-basis: 80%;
+    }
+}
